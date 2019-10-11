@@ -1,0 +1,333 @@
+[[package]]
+category = "main"
+description = "Cross-platform colored terminal text."
+marker = "platform_system == \"Windows\""
+name = "colorama"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
+version = "0.4.1"
+
+[[package]]
+category = "main"
+description = "A high-level Python Web framework that encourages rapid development and clean, pragmatic design."
+name = "django"
+optional = false
+python-versions = ">=3.5"
+version = "2.2.6"
+
+[package.dependencies]
+pytz = "*"
+sqlparse = "*"
+
+[[package]]
+category = "main"
+description = "Pythonic argument parser, that will make you smile"
+name = "docopt"
+optional = false
+python-versions = "*"
+version = "0.6.2"
+
+[[package]]
+category = "main"
+description = "A toolkit for generation of output for the web"
+name = "genshi"
+optional = false
+python-versions = "*"
+version = "0.7.3"
+
+[[package]]
+category = "main"
+description = "GNU Health - The Free/Libre Hospital and Health Information System core package for Tryton"
+name = "gnuhealth"
+optional = false
+python-versions = "*"
+version = "3.4.0"
+
+[package.dependencies]
+numpy = "*"
+pytz = "*"
+trytond = ">=4.6,<4.7"
+trytond_company = ">=4.6,<4.7"
+trytond_currency = ">=4.6,<4.7"
+trytond_party = ">=4.6,<4.7"
+trytond_product = ">=4.6,<4.7"
+
+[[package]]
+category = "main"
+description = "GNU Health Crypto Module"
+name = "gnuhealth-crypto"
+optional = false
+python-versions = "*"
+version = "3.4.0"
+
+[package.dependencies]
+gnuhealth = "3.4.0"
+
+[[package]]
+category = "main"
+description = "Django application that provides cropping, resizing, thumbnailing, overlays and masking for images and videos with the ability to set the center of attention,"
+name = "image"
+optional = false
+python-versions = "*"
+version = "1.5.27"
+
+[package.dependencies]
+django = "*"
+pillow = "*"
+
+[[package]]
+category = "main"
+description = "Powerful and Pythonic XML processing library combining libxml2/libxslt with the ElementTree API."
+name = "lxml"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, != 3.4.*"
+version = "4.4.1"
+
+[[package]]
+category = "main"
+description = "NumPy is the fundamental package for array computing with Python."
+name = "numpy"
+optional = false
+python-versions = ">=2.7,!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*"
+version = "1.16.5"
+
+[[package]]
+category = "main"
+description = "Python Imaging Library (Fork)"
+name = "pillow"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*"
+version = "6.2.0"
+
+[[package]]
+category = "main"
+description = "A library to manipulate gettext files (po and mo files)."
+name = "polib"
+optional = false
+python-versions = "*"
+version = "1.1.0"
+
+[[package]]
+category = "main"
+description = "Cryptographic library for Python"
+name = "pycryptodome"
+optional = false
+python-versions = ">=2.6, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
+version = "3.9.0"
+
+[[package]]
+category = "main"
+description = "Python One Time Password Library"
+name = "pyotp"
+optional = false
+python-versions = "*"
+version = "2.3.0"
+
+[[package]]
+category = "main"
+description = "Extensions to the standard Python datetime module"
+name = "python-dateutil"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*"
+version = "2.8.0"
+
+[package.dependencies]
+six = ">=1.5"
+
+[[package]]
+category = "main"
+description = "Library to write SQL queries"
+name = "python-sql"
+optional = false
+python-versions = "*"
+version = "1.0.0"
+
+[[package]]
+category = "main"
+description = "Python module to handle standardized numbers and codes"
+name = "python-stdnum"
+optional = false
+python-versions = "*"
+version = "1.11"
+
+[[package]]
+category = "main"
+description = "World timezone definitions, modern and historical"
+name = "pytz"
+optional = false
+python-versions = "*"
+version = "2019.3"
+
+[[package]]
+category = "main"
+description = "QR Code image generator"
+name = "qrcode"
+optional = false
+python-versions = "*"
+version = "6.1"
+
+[package.dependencies]
+colorama = "*"
+six = "*"
+
+[[package]]
+category = "main"
+description = "A templating library able to output odt and pdf files"
+name = "relatorio"
+optional = false
+python-versions = "*"
+version = "0.9.0"
+
+[package.dependencies]
+Genshi = ">=0.5"
+lxml = ">=2.0"
+
+[[package]]
+category = "main"
+description = "Python 2 and 3 compatibility utilities"
+name = "six"
+optional = false
+python-versions = ">=2.6, !=3.0.*, !=3.1.*"
+version = "1.12.0"
+
+[[package]]
+category = "main"
+description = "Non-validating SQL parser"
+name = "sqlparse"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
+version = "0.3.0"
+
+[[package]]
+category = "main"
+description = "Tryton server"
+name = "trytond"
+optional = false
+python-versions = "*"
+version = "4.6.21"
+
+[package.dependencies]
+Genshi = "*"
+polib = "*"
+python-dateutil = "*"
+python-sql = ">=0.4"
+relatorio = ">=0.7.0"
+werkzeug = "*"
+wrapt = "*"
+
+[package.dependencies.lxml]
+python = "<3.4.0 || >=3.5.0"
+version = ">=2.0"
+
+[[package]]
+category = "main"
+description = "Tryton module with companies and employees"
+name = "trytond-company"
+optional = false
+python-versions = "*"
+version = "4.6.0"
+
+[package.dependencies]
+trytond = ">=4.6,<4.7"
+trytond-currency = ">=4.6,<4.7"
+trytond-party = ">=4.6,<4.7"
+
+[[package]]
+category = "main"
+description = "Tryton module with countries"
+name = "trytond-country"
+optional = false
+python-versions = "*"
+version = "4.6.0"
+
+[package.dependencies]
+trytond = ">=4.6,<4.7"
+
+[[package]]
+category = "main"
+description = "Tryton module with currencies"
+name = "trytond-currency"
+optional = false
+python-versions = "*"
+version = "4.6.2"
+
+[package.dependencies]
+trytond = ">=4.6,<4.7"
+
+[[package]]
+category = "main"
+description = "Tryton module with parties and addresses"
+name = "trytond-party"
+optional = false
+python-versions = "*"
+version = "4.6.2"
+
+[package.dependencies]
+python-sql = ">=0.4"
+python-stdnum = "*"
+trytond = ">=4.6,<4.7"
+trytond-country = ">=4.6,<4.7"
+
+[[package]]
+category = "main"
+description = "Tryton module with products"
+name = "trytond-product"
+optional = false
+python-versions = "*"
+version = "4.6.0"
+
+[package.dependencies]
+python-sql = "*"
+trytond = ">=4.6,<4.7"
+trytond-company = ">=4.6,<4.7"
+
+[[package]]
+category = "main"
+description = "The comprehensive WSGI web application library."
+name = "werkzeug"
+optional = false
+python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*"
+version = "0.16.0"
+
+[[package]]
+category = "main"
+description = "Module for decorators, wrappers and monkey patching."
+name = "wrapt"
+optional = false
+python-versions = "*"
+version = "1.11.2"
+
+[metadata]
+content-hash = "8695e5800bc514a2c213efa5321267da903f1484fc2632afd739fe71305f4c71"
+python-versions = "^3.7"
+
+[metadata.hashes]
+colorama = ["05eed71e2e327246ad6b38c540c4a3117230b19679b875190486ddd2d721422d", "f8ac84de7840f5b9c4e3347b3c1eaa50f7e49c2b07596221daec5edaabbd7c48"]
+django = ["4025317ca01f75fc79250ff7262a06d8ba97cd4f82e93394b2a0a6a4a925caeb", "a8ca1033acac9f33995eb2209a6bf18a4681c3e5269a878e9a7e0b7384ed1ca3"]
+docopt = ["49b3a825280bd66b3aa83585ef59c4a8c82f2c8a522dbe754a8bc8d08c85c491"]
+genshi = ["5e92e278ca1ea395349a451d54fc81dc3c1b543c48939a15bd36b7b3335e1560", "7933c95151d7dd2124a2b4c8dd85bb6aec881ca17c0556da0b40e56434b313a0"]
+gnuhealth = ["06678bb5a1f157d8f6bfcac87f7b6986f168f91ebfe9f6f300b0c4936a3812b2"]
+gnuhealth-crypto = ["5160bf77ec57d1378346f3425c19f694c2feee16c1bcbfa7a54f8e07be7fbbd0"]
+image = ["3f0ea15fb523c68a08098153bb06f4a8913300277e11b61c5e71fdd57b243783", "4a5807ae8f2d73289c01f158cca20082346f51de4a93353422f3ed1d0bdb6785"]
+lxml = ["02ca7bf899da57084041bb0f6095333e4d239948ad3169443f454add9f4e9cb4", "096b82c5e0ea27ce9138bcbb205313343ee66a6e132f25c5ed67e2c8d960a1bc", "0a920ff98cf1aac310470c644bc23b326402d3ef667ddafecb024e1713d485f1", "17cae1730a782858a6e2758fd20dd0ef7567916c47757b694a06ffafdec20046", "17e3950add54c882e032527795c625929613adbd2ce5162b94667334458b5a36", "1f4f214337f6ee5825bf90a65d04d70aab05526c08191ab888cb5149501923c5", "2e8f77db25b0a96af679e64ff9bf9dddb27d379c9900c3272f3041c4d1327c9d", "4dffd405390a45ecb95ab5ab1c1b847553c18b0ef8ed01e10c1c8b1a76452916", "6b899931a5648862c7b88c795eddff7588fb585e81cecce20f8d9da16eff96e0", "726c17f3e0d7a7200718c9a890ccfeab391c9133e363a577a44717c85c71db27", "760c12276fee05c36f95f8040180abc7fbebb9e5011447a97cdc289b5d6ab6fc", "796685d3969815a633827c818863ee199440696b0961e200b011d79b9394bbe7", "891fe897b49abb7db470c55664b198b1095e4943b9f82b7dcab317a19116cd38", "a471628e20f03dcdfde00770eeaf9c77811f0c331c8805219ca7b87ac17576c5", "a63b4fd3e2cabdcc9d918ed280bdde3e8e9641e04f3c59a2a3109644a07b9832", "b0b84408d4eabc6de9dd1e1e0bc63e7731e890c0b378a62443e5741cfd0ae90a", "be78485e5d5f3684e875dab60f40cddace2f5b2a8f7fede412358ab3214c3a6f", "c27eaed872185f047bb7f7da2d21a7d8913457678c9a100a50db6da890bc28b9", "c81cb40bff373ab7a7446d6bbca0190bccc5be3448b47b51d729e37799bb5692", "d11874b3c33ee441059464711cd365b89fa1a9cf19ae75b0c189b01fbf735b84", "e9c028b5897901361d81a4718d1db217b716424a0283afe9d6735fe0caf70f79", "fe489d486cd00b739be826e8c1be188ddb74c7a1ca784d93d06fda882a6a1681"]
+numpy = ["00836128feaf9a7c7fedeea05ad593e7965f523d23fe3ffbf20cfffd88e9f2b1", "03b28330253904d410c3c82d66329f29645eb54a7345cb7dd7a1529d61fa603f", "1594aec94e4896e0688f4f405481fda50fb70547000ae71f2e894299a088a661", "27aa457590268cb059c47daa8c55f48c610ce81da8a062ec117f74efa9124ec9", "2c5a556272c67566e8f4607d1c78ad98e954fa6c32802002a4a0b029ad8dd759", "37fdd3bb05caaaacac58015cfa38e38b006ee9cef1eaacdb70bb68c16ac7db1d", "3a96e59f61c7a8f8838d0f4d19daeba551c5f07c5cdd5c81e8e9d4089ade0042", "3d6a354bb1a1ce2cabd47e0bdcf25364322fb55a29efb59f76944d7ee546d8b6", "4208b225ae049641a7a99ab92e84ce9d642ded8250d2b6c9fd61a7fa8c072561", "46469e7fcb689036e72ce61c3d432ed35eb4c71b5119e894845b434b0fae5813", "4d790e2a37aa3350667d8bb8acc919010c7e46234c3d615738564ddc6d22026f", "612297115bade249a118616c065597ff2e5e1f47ed220d7ba71f3e6c6ebcd814", "8bb452d94e964b312205b0de1238dd7209da452343653ab214b5d681780e7a0c", "911d91ffc6688db0454d69318584415f7dfb0fc1b8ac9b549234e39495684230", "9a2b950bca9faca0145491ae9fd214c432f2b1e36783399bc2c3732e7bcc94f4", "ada1a1cd68b9874fa480bd287438f92bd7ce88ca0dd6e8d56c70f2b3dab97314", "ceb353e3ae840ce76256935b18c17236ca808509f231f41d5173d7b2680d5e77", "dbc9e9a6a5e0c4f57498855d4e30ef8b599c0ce13fdf9d64299197508d67d9e8", "e6ce7c0051ed5443f8343da2a14580aa438822ae6526900332c4564f371d2aaf", "f42e21d8db16315bc30b437bff63d6b143befb067b8cd396fa3ef17f1c21e1a0", "f7fb27c0562206787011cf299c03f663c604b58a35a9c2b5218ba6485a17b145", "fada0492dd35412cd96e0578677e9a4bdae8f102ef2b631301fcf19066b57119", "fb207362394567343d84c0462ec3ba203a21c78be9a0fdbb94982e76859ec37e"]
+pillow = ["00fdeb23820f30e43bba78eb9abb00b7a937a655de7760b2e09101d63708b64e", "01f948e8220c85eae1aa1a7f8edddcec193918f933fb07aaebe0bfbbcffefbf1", "08abf39948d4b5017a137be58f1a52b7101700431f0777bec3d897c3949f74e6", "099a61618b145ecb50c6f279666bbc398e189b8bc97544ae32b8fcb49ad6b830", "2c1c61546e73de62747e65807d2cc4980c395d4c5600ecb1f47a650c6fa78c79", "2ed9c4f694861642401f27dc3cb99772be67cd190e84845c749dae0a06c3bfae", "338581b30b908e111be578f0297255f6b57a51358cd16fa0e6f664c9a1f88bff", "38c7d48a21cd06fdeee93987147b9b1c55b73b4cfcbf83240568bfbd5adee447", "43fd026f613c8e48a25eba1a92f4d2ad7f3903c95d8c33a11611a7717d2ab654", "4548236844327a718ce3bb182ab32a16fa2050c61e334e959f554cac052fb0df", "5090857876c58885cfa388dc649e5db30aae98a068c26f3fd0ac9d7d9a4d9572", "5bbba34f97a26a93f5e8dec469ca4ddd712451418add43da946dbaed7f7a98d2", "65a28969a025a0eb4594637b6103201dc4ed2a9508bdab56ac33e43e3081c404", "892bb52b70bd5ea9dbbc3ac44f38e84f5a04e9d8b1bff48159d96cb795b81159", "8a9becd5cbd5062f973bcd2e7bc79483af310222de112b6541f8af1f93a3cc42", "972a7aaeb7c4a2795b52eef52ee991ef040b31009f36deca6207a986607b55f3", "97b119c436bfa96a92ac2ca525f7025836d4d4e64b1c9f9eff8dbaf3ff1d86f3", "9ba37698e242223f8053cc158f130aee046a96feacbeab65893dbe94f5530118", "b1b0e1f626a0f079c0d3696db70132fb1f29aa87c66aecb6501a9b8be64ce9f7", "c14c1224fd1a5be2733530d648a316974dbbb3c946913562c6005a76f21ca042", "c79a8546c48ae6465189e54e3245a97ddf21161e33ff7eaa42787353417bb2b6", "ceb76935ac4ebdf6d7bc845482a4450b284c6ccfb281e34da51d510658ab34d8", "e22bffaad04b4d16e1c091baed7f2733fc1ebb91e0c602abf1b6834d17158b1f", "ec883b8e44d877bda6f94a36313a1c6063f8b1997aa091628ae2f34c7f97c8d5", "f1baa54d50ec031d1a9beb89974108f8f2c0706f49798f4777df879df0e1adb6", "f53a5385932cda1e2c862d89460992911a89768c65d176ff8c50cddca4d29bed"]
+polib = ["93b730477c16380c9a96726c54016822ff81acfa553977fdd131f2b90ba858d7", "fad87d13696127ffb27ea0882d6182f1a9cf8a5e2b37a587751166c51e5a332a"]
+pycryptodome = ["023c294367d7189ae224fb61bc8d49a2347704087c1c78dbd5ab114dd5b97761", "0f29e1238ad3b6b6e2acd7ea1d8e8b382978a56503f2c48b67d5dc144d143cb0", "18f376698e3ddcb1d3b312512ca78c9eed132e68ac6d0bf2e72452dfe213e96f", "1de815b847982f909dc2e5e2ca641b85cde80d95cc7e6a359c03d4b42cd21568", "1ff619b8e4050799ca5ca0ffdf8eb0dbccba6997997866755f37e6aa7dde23fe", "233a04bb7bdd4b07e14d61d5166150942d872802daa4f049d49a453fe0659e94", "33c07e1e36ec84524b49f99f11804d5e4d2188c643e84d914cb1e0a277ed3c79", "3701822a085dbebf678bfbdfbd6ebd92ffa80d5a544c9979984bf16a67c9790b", "3f8e6851c0a45429f9b86c1597d3b831b0cff140b3e170a891fce55ef8dac2bb", "4f6cdddf1fe72e7f173e9734aa19b94cbd046b61a8559d650ff222e36021d5c1", "52d20b22c5b1fc952b4c686b99a6c55c3b0b0a673bec30570f156a72198f66ff", "5452b534fecf8bf57cf9106d00877f5f4ab7264e7a5e1f5ea8d15b04517d1255", "5a7a9a4a7f8f0990fa97fee71c7f7e0c412925c515cfc6d4996961e92c9be8e5", "600bf9dd5fbed0feee83950e2a8baacaa1f38b56c237fff270d31e47f8da9e52", "6840c9881e528224ebf72b3f73b3d11baf399e265106c9f4d9bae4f09615a93a", "71b041d43fe13004abc36ca720ac64ea489ee8a3407a25116481d0faf9d62494", "7252498b427c421e306473ed344e58235eedd95c15fec2e1b33d333aefa1ea10", "8d2135c941d38f241e0e62dbdfc1ca5d9240527e61316126797f50b6f3e49825", "a0962aea03933b99cf391c3e10dfef32f77915d5553464264cfbc6711f31d254", "a117047a220b3911d425affcd1cbc97a1af7ea7eb5d985d9964d42b4f0558489", "a35a5c588248ba00eb976a8554211e584a55de286783bc69b12bdd7954052b4a", "c1a4f3f651471b9bf60b0d98fa8a994b8a73ff8ab4edc691e23243c853aaff9f", "c419943306756ddd1a1997120bb073733bc223365909c68185106d5521cbc0ef", "c453ad968b67d66448543420ec39770c30bd16d986058255f058ab87c4f6cc1f", "d2d78644655629c7d1b9bf28e479d29facc0949d9ff095103ca9c2314b329ee0", "d7be60dc2126ee350ac7191549f5ab05c2dd76a5d5a3022249f395a401c6ea37", "dbeb08ad850056747aa7d5f33273b7ce0b9a77910604a1be7b7a6f2ef076213f", "f02382dc1bf91fb7123f2a3851fb1b526c871fa9359f387f2bcc847efc74ae52"]
+pyotp = ["c88f37fd47541a580b744b42136f387cdad481b560ef410c0d85c957eb2a2bc0", "fc537e8acd985c5cbf51e11b7d53c42276fee017a73aec7c07380695671ca1a1"]
+python-dateutil = ["7e6584c74aeed623791615e26efd690f29817a27c73085b78e4bad02493df2fb", "c89805f6f4d64db21ed966fda138f8a5ed7a4fdbc1a8ee329ce1b74e3c74da9e"]
+python-sql = ["0bbbb1eef667679316ec9fc415f0b616a098e482b41eea73ed4945e0cd48d116", "14fb0dabc3edfc59099987a94ef36d375abc390abeffbddb5d1e3229a3c75dc2", "48a8092dc513136340054cc859d4116ab300a402d5ab8a4972a44e1453b5ac83"]
+python-stdnum = ["d5f0af1bee9ddd9a20b398b46ce062dbd4d41fcc9646940f2667256a44df3854", "f445ec32bf5246c90389204cabba465f494545371c29a83fa2d30e6c872a6763"]
+pytz = ["1c557d7d0e871de1f5ccd5833f60fb2550652da6be2693c1e02300743d21500d", "b02c06db6cf09c12dd25137e563b31700d3b80fcc4ad23abb7a315f2789819be"]
+qrcode = ["3996ee560fc39532910603704c82980ff6d4d5d629f9c3f25f34174ce8606cf5", "505253854f607f2abf4d16092c61d4e9d511a3b4392e60bff957a68592b04369"]
+relatorio = ["5212fcf677af535ca95ba4fbaa0108ef2e9b1de95834a2f0cec059d9435b938a", "cc263a32e0db1a51f694765c3e77eeef6b407db0dd655b9b886efb3e9c2c9975", "d33c7dabdc20e0af3f41adfb64da718aecd73ab1a526fca8ef72bb7b0fd52361"]
+six = ["3350809f0555b11f552448330d0b52d5f24c91a322ea4a15ef22629740f3761c", "d16a0141ec1a18405cd4ce8b4613101da75da0e9a7aec5bdd4fa804d0e0eba73"]
+sqlparse = ["40afe6b8d4b1117e7dff5504d7a8ce07d9a1b15aeeade8a2d10f130a834f8177", "7c3dca29c022744e95b547e867cee89f4fce4373f3549ccd8797d8eb52cdb873"]
+trytond = ["564817f2d5cdb761a3d40104d814e1dfd7937e27a321d29e0ce6fbe7e75f0779", "a21144d68eb3debe2f1a43dd23b1b0434474af329bbf8b3b6679647855e8e469", "a9dccf461d747b1fb6d59e8d395d27d5fdc554cf9bc6c8cf59711b6530d4ead3"]
+trytond-company = ["08ad5b8fff8aaacf130ff4ece6219c281e6d5e4a8d745f6a149e8a1f55375420", "48e8e0a2586e5eb8d615724b70555e65cd56e2052235b4f758704191e59d6cdf", "b003eb81258cf8a987d7b75fa39076da539aa731136fb15f20538e92ef30373d"]
+trytond-country = ["23eb3834d481ee039f915c1248c3d0c01923682d9053e80d3b562ea605af8985", "4678813c994d12518a9c5154284908f2d9f1600f494b464d57c9be115b045549", "8e75f8a61343e94b5895f30c19ab371886d29b819a106ef44c56ecea3ff2de4a"]
+trytond-currency = ["0215d56a95f61d56f2601de95db3d52974c99a677a69fc434243a01aa91651c9", "28cba732142c31e4c1af04bf19bdeef81a671beab2f7d717b3a7416813102fb1", "ba9dd1ab1aa890664333f34643776f28a1d7a52e8b78a8528fa21e30e0897bee"]
+trytond-party = ["76e02bcdbb5251fef1f5733320c7d23cbdfa3bf3544519d828a35b848571f7df", "9d645b158ad724e4317e0b5fd9240fa6d33c0e31d39d9b71840ed5c045fe15a5", "a1a8fe87243598a1b00f5c9d5dabea30ab42dde4e32d00a5bf6b29a7aac1b9e3"]
+trytond-product = ["4afa19bbadb5009acd7abce0e54cbf592adabf03beb8c763f59a16f0ee44036a", "79b7a882a5d11216230bbf8be2d5ff5f954768bea9e3f9e86fc1cdf4b94a2491", "bf42924a3f90856249faba79cd8f3e7d148e9d3f1dbc0329b3bcd47fe88c2be4"]
+werkzeug = ["7280924747b5733b246fe23972186c6b348f9ae29724135a6dfc1e53cea433e7", "e5f4a1f98b52b18a93da705a7458e55afb26f32bff83ff5d19189f92462d65c4"]
+wrapt = ["565a021fd19419476b9362b05eeaa094178de64f8361e44468f9e9d7843901e1"]
